@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(245, 235, 235);
+}
+#header{
+    background-color: rgb(245, 207, 251);
+    padding: 20px;
+}
+
+#button-start{
+    margin: 20px;
+    width: 280px;
+    height: 80px;
+    background-color:rgb(245, 207, 251);
+    border-radius: 8px;
+    border: rgb(245, 207, 251);
+    box-shadow: 8px 8px 10px rgb(230, 127, 246);
+}
+
+#explore-museum{
+    margin: 100px;
+    
+}
+
+.sec-gallery{
+    /* margin-left: 400px; */
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    background-color: rgb(245, 207, 251);
+}
+
+.sec-gallery img{
+    /* margin-left: 400px; */
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+
+#img5{
+    width: 500px;
+    height: 500px;
+}
+
+#img-index{
+    margin-left: 350px;
+    width: 380px;
+    height: 400px;
+}
+
+
+
+footer{
+    
+    padding: 20px;
+    background-color: rgb(157, 128, 255);
+}
