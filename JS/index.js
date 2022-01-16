@@ -3,7 +3,9 @@ window.addEventListener('load', startGallery, false);
 let museum = new Museum;
 museum.initializeGallery();
 
-const artPieces = museum.getPieces();
+const beniePieces = museum.getPieces();
+
+
 
 function startGallery(){
     let ob=document.getElementById('button-start');
@@ -55,22 +57,22 @@ function exploreMuseum(){
 }
 
 function showByMouseEnter(){
-    alert('HAT, CAP O GORRO: Aquí podemos englobarlos a todos. Son los términos más comunes para denominarlos de forma general. ');
+    alert( beniePieces[0].getDescription() );
 }
 
 
 function showByClick(){
-    alert('Si lo tejemos más largo de lo normal pasa a ser un SLOUCHY O GORRO CAÍDO');
+    alert( beniePieces[1].getDescription() );
 }
 
 function showBySelect(){
-    alert('Si lo tejemos más largo de lo normal pasa a ser un SLOUCHY O GORRO CAÍDO');
+    alert( beniePieces[2].getDescription() );
 }
 
 function showByPress(){
-    alert('EAR FLAP O GORRO CON OREJERAS: Llevan dos solapas a los lados precisamente para eso, para cubrir las orejas. ');
+    alert( beniePieces[3].getDescription() );
 }
 
 function showByForm(){
-    alert('BERET O BOINA: Gorro redondo y plano, normalmente sin visera, y a veces con un rabillo en la parte superior. ');
+    alert( beniePieces[4].getDescription() );
 }
